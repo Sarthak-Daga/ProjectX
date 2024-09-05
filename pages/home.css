@@ -1,0 +1,93 @@
+body {
+  background-image: url('../assets/images/image_1.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image {
+  background: url('../assets/images/image.png') 50% / cover no-repeat;
+  margin-left:75px;
+  margin-top:30px; 
+  width: 159px;
+  height: 156.4px;
+}
+.graphology-for-workforce-well-being {
+  /* border: 1px solid #000000; */
+  margin-top:30px; 
+  position: relative;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Julee';
+  font-weight: 400;
+  font-size: 82px;
+  color: #072867;
+  margin-left:150px;
+}
+.container {
+  margin: 0 27px 67px 27px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.container-2 {
+  display: flex; /* Enable Flexbox layout */
+  flex-direction: row; /* Row layout is the default, so this is optional */
+  align-items:center;
+  width: fit-content; /* Container will fit its content */
+  box-sizing: border-box; /* Include padding and border in width calculation */
+  gap: 160px; /* Adds spacing between the flex items */
+}
+
+.handwriting-1 {
+  background: url('../assets/images/handwriting_1.jpeg') 50% / cover no-repeat; /* Centered background image */
+  width: 410px; /* Fixed width */
+  height: 410px; /* Fixed height */
+  flex: 0 0 410px; /* Fixed flex basis to match width */
+  margin-left:100px;
+}
+
+.para {
+  margin-top: -5px;
+  display: inline-block; /* Inline-block to keep the width dynamic */
+  overflow-wrap: break-word; /* Ensure text wraps correctly */
+  font-family: 'Julee';
+  font-weight: 400;
+  font-size: 33.6px;
+  color: #042D7B;
+  flex: 1; /* Allow this element to grow and take remaining space */
+  max-width: 800px; /* Optional: Set a max width for better readability */  
+}
+
+.container-1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.rectangle-1 {
+  border-radius: 45px;
+  position: absolute;
+  top: 152px;
+  right: 23px;
+  width: 342px;
+  height: 103px;
+}
+.sign-up {
+  position: absolute;
+  top: 169px;
+  right: 94.6px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 53.9px;
+  color: #072867;
+}
+{
+  background: #FFFFFF;
+  display: flex;
+  padding: 46px 81.6px 33px 128px;
+  width: 1440px;
+  box-sizing: border-box;
+}
